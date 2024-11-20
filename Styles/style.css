@@ -9,6 +9,7 @@ body{
     background-color: var(--bg-color);
 }
 
+
 @font-face{
     font-family: 'PlayFairDisplay';
     src: url(/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf);
