@@ -28,13 +28,34 @@
 /* hero image */
 
 /* Bridal Card */
+.card-border{
+    border: none; 
+    box-shadow: 1px 1px 1px 1px;
+}
+
 .card-image{
+    display: flex;
     height: 300px;
     width: 300px;
 }
 
-.card-border{
-    border: 10px solid white;
+.card-center{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.body-text{
+    margin: 20px auto;
+    width: 90%;
+}
+
+.body-text-height-margin{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.text-font{
+    font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
 }
 /* bridal card */
 
