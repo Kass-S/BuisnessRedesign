@@ -24,15 +24,19 @@ body{
 /* end of body  */
 
 /* footer */
-.gridContainerFooter{
+.gridContainerFooter-Header{
 background-color: #AFCA98;
 display: grid;
 grid-template-columns: repeat(12, 1fr);
 grid-template-rows: repeat(1, 1fr);
 }
+.FooterEmail{
+    text-decoration: underline;
+}
 
 .Contact{
     grid-column: 4;
+
 }
 .Visit{
     grid-column: 6 /span 2;
@@ -45,9 +49,7 @@ grid-template-rows: repeat(1, 1fr);
     aspect-ratio: 1/1;
 }
 
-.FooterTitles{
-    font-size: 16;
-}
+
 
 .FooterIGlogo{
     width: 32px;
