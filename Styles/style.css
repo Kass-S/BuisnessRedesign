@@ -5,11 +5,6 @@
     --current-page: #57594B;
 }
 
-body{
-    background-color: var(--bg-color);
-}
-
-
 @font-face{
     font-family: 'PlayFairDisplay';
     src: url(/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf);
@@ -19,3 +14,48 @@ body{
     font-family: 'Ario';
     src: url(/assets/fonts/Arimo-VariableFont_wght.ttf);
 }
+/* Navbar*/
+/* end of Navbar */
+
+/* body */
+body{
+    background-color: var(--bg-color);
+}
+/* end of body  */
+
+/* footer */
+.gridContainerFooter{
+background-color: #AFCA98;
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+grid-template-rows: repeat(1, 1fr);
+}
+
+.Contact{
+    grid-column: 4;
+}
+.Visit{
+    grid-column: 6 /span 2;
+}
+.Socials{
+    grid-column: 8 /span 2;
+}
+.MPlogo{
+    width: 20px;
+    aspect-ratio: 1/1;
+}
+
+.FooterTitles{
+    font-size: 16;
+}
+
+.FooterIGlogo{
+    width: 32px;
+    aspect-ratio: 1/1;
+    margin-right: 1em;
+}
+.FooterFBlogo{
+    width: 20px;
+    
+}
+/* end of footer */
