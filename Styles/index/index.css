@@ -1,4 +1,7 @@
+@import url("../style.css");
+
 .hero-grid {
+    background-image: url();
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr repeat(2, auto) 1fr;
