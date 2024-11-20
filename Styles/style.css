@@ -8,3 +8,13 @@
 body{
     background-color: var(--bg-color);
 }
+
+@font-face{
+    font-family: 'PlayFairDisplay';
+    src: url(/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: 'Ario';
+    src: url(/assets/fonts/Arimo-VariableFont_wght.ttf);
+}
