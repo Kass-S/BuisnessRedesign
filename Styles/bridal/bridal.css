@@ -1,6 +1,6 @@
 @import url("../style.css");
 
-
+/* Hero Image */
 .hero-img-grid{
     display: grid;
     place-items: center;
@@ -25,3 +25,18 @@
     color: white;
     font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
 }
+/* hero image */
+
+/* Bridal Card */
+.card-image{
+    height: 300px;
+    width: 300px;
+}
+
+.card-border{
+    border: 10px solid white;
+}
+/* bridal card */
+
+/* Photo Gallary */
+/* photo gallary */
