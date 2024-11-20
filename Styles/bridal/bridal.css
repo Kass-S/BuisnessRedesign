@@ -1,0 +1,25 @@
+@import url("../style.css");
+
+
+.hero-img-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 500px;
+    max-width: 100%;
+}
+
+.grid-hero{
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+}
+
+.grid-hero-img{
+    height: 100%;
+    width: 100%;
+}
+
+.grid-hero-text{
+    grid-column: 2;
+    grid-row: 2;
+}
