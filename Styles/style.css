@@ -1,0 +1,10 @@
+:root{
+    --bg-color: #F2F3EF;
+    --header-footer: #AFCA98;
+    --btun-hover: #A9BD98;
+    --current-page: #57594B;
+}
+
+body{
+    background-color: var(--bg-color);
+}
