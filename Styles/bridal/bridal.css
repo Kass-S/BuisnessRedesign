@@ -1,5 +1,10 @@
 @import url("../style.css");
 
+.card-border{
+    border: 2px solid #D9D9D9; 
+    box-shadow: 0 .2em .2em #00000035;
+}
+
 /* Hero Image */
 .hero-img-grid{
     display: grid;
@@ -28,15 +33,12 @@
 /* hero image */
 
 /* Bridal Card */
-.card-border{
-    border: 3px solid #D9D9D9; 
-    box-shadow: 1px 1px 1px 1px #00000035;
-}
+
 
 .card-image{
     display: flex;
     aspect-ratio: 2/2;
-
+    object-fit: cover;
 }
 
 .card-center{
@@ -65,5 +67,33 @@
 }
 /* bridal card */
 
-/* Photo Gallary */
-/* photo gallary */
+/* Bridal Group*/
+.card-group-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-group-item-1{
+    grid-column: 1;   
+}
+
+.card-group-item-2{
+    grid-column: 2;
+}
+
+.card-group-item-3{
+    grid-column: 3;
+}
+
+.card-group-center{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.body-group-img{
+    margin: 1em auto;
+    width: 90%;
+    height: 90%;
+    
+}
+/* bridal group */
