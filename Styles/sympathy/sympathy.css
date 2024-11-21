@@ -106,7 +106,7 @@
     margin: 0 auto;
     margin-top: 3em;
     margin-bottom: 2em;
-    width: 90%;
+    width: 48em;
 }
 /* ribbon group */
 
@@ -138,6 +138,6 @@
 
 @media (max-width: 576px){
     .card-ribbon-center{
-        width: 90%;
+        width: 48em;
     }
 }
