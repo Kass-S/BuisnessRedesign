@@ -31,4 +31,38 @@
 /* hero-end */
 
 /* cards-start */
+.card-border{
+    border: 2px solid #D9D9D9; 
+    box-shadow: 0 0.2em 0.2em #00000035;
+}
+
+.card-image{
+    display: flex;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.card-center{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.body-text{
+    margin: 20px auto;
+    width: 90%;
+}
+
+.body-img{
+    margin: 1em auto;
+    width: 90%;
+}
+
+.body-text-height-margin{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.text-font{
+    font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
+}
 /* cards-end */
