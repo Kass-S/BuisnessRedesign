@@ -15,6 +15,41 @@
     src: url(/assets/fonts/Arimo-VariableFont_wght.ttf);
 }
 /* Navbar*/
+.logoHeader{
+    grid-column: span 3;
+    grid-row: 1;
+}
+
+.gridContainerHeader{
+    background-color: #AFCA98;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, auto);
+    }
+.HMbtn{
+    grid-column: 5 /span 1;
+    grid-row: 1;
+}
+
+.DDbtn{
+    grid-column: 6 /span 1;
+    grid-row: 1;
+}
+
+.SObtn{
+    grid-column: 7 /span 2;
+    grid-row: 1;
+}
+
+.ORbtn{
+    grid-column: 9 /span 1;
+    grid-row: 1;
+}
+
+.SIbtn{
+    grid-column: 12 /span 1;
+    grid-row: 1;
+}
 /* end of Navbar */
 
 /* body */
@@ -24,7 +59,7 @@ body{
 /* end of body  */
 
 /* footer */
-.gridContainerFooter-Header{
+.gridContainerFooter{
 background-color: #AFCA98;
 display: grid;
 grid-template-columns: repeat(12, 1fr);
