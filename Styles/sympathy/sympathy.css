@@ -36,41 +36,7 @@
 }
 /* hero image */
 
-/* Bridal Card */
-.card-image{
-    display: flex;
-    aspect-ratio: 2/2;
-    object-fit: cover;
-}
-
-.card-center{
-    margin: 0 auto;
-    margin-top: 4em;
-    width: 60%;
-}
-
-.body-text{
-    margin: 20px auto;
-    width: 90%;
-}
-
-.body-img{
-    margin: auto auto;
-    width: 90%;
-    height: 90%;
-}
-
-.body-text-height-margin{
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-
-.text-font{
-    font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
-}
-/* bridal card */
-
-/* Bridal Group*/
+/* Smpathy Group*/
 .card-group-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -88,6 +54,10 @@
     grid-column: 3;
 }
 
+.card-height{
+    height: 35em;
+}
+
 .card-group-center{
     margin: 0 auto;
     margin-top: 3em;
@@ -98,14 +68,22 @@
 .body-group-img{
     margin: 1em auto;
     width: 90%;
-    height: 90%;
-    
+    height: 70%;
 }
 
 .text-font{
     font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
 }
-/* bridal group */
+
+.sympathy-btn{
+    background-color: var(--header-footer);
+}
+
+.sympathy-btn:hover{
+    color: #000000;
+    background-color: var(--btn-hover);
+}
+/* sympathy group */
 
 @media (max-width: 1024px){
     .card-group-grid{
