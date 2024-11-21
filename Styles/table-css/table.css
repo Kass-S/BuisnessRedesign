@@ -115,3 +115,37 @@ p {
     
 }
 /* bridal group */
+
+/* responsiveness-start */
+@media (max-width: 767px){
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 22px;
+    }
+    
+    h6 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+
+    .card-group-grid{
+        display: grid;
+        grid-template-columns: 7em auto 7em;
+        gap: 3em;
+    }
+
+    .gal-card {
+        grid-column: 2;
+    }
+}
+/* responsiveness-end */
