@@ -5,6 +5,10 @@
     box-shadow: 0 .2em .2em #00000035;
 }
 
+.margin-top{
+    margin-top: 2em;
+}
+
 /* Hero Image */
 .hero-img-grid{
     display: grid;
@@ -43,6 +47,7 @@
 
 .card-center{
     margin: 0 auto;
+    margin-top: 4em;
     width: 60%;
 }
 
@@ -87,6 +92,8 @@
 
 .card-group-center{
     margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 2em;
     width: 90%;
 }
 
