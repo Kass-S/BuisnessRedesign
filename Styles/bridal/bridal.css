@@ -108,3 +108,25 @@
     font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
 }
 /* bridal group */
+
+@media (max-width: 1024px){
+    .card-group-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .card-group-item-3{
+        grid-column: 1;
+    }
+}
+
+@media (max-width: 768px){
+    .card-group-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .card-group-item-2{
+        grid-column: 1;
+    }
+}
