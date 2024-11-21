@@ -1,12 +1,17 @@
 @import url("../style.css");
 
+
+.text-font{
+    font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
+}
+
 .card-border{
     border: 2px solid #D9D9D9; 
     box-shadow: 0 .2em .2em #00000035;
 }
 
 .margin-top{
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 /* Hero Image */
@@ -71,19 +76,39 @@
     height: 70%;
 }
 
-.text-font{
-    font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
-}
-
 .sympathy-btn{
+    color: #000000;
     background-color: var(--header-footer);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 .sympathy-btn:hover{
     color: #000000;
     background-color: var(--btn-hover);
+    
 }
 /* sympathy group */
+
+/* Ribbon Group */
+.card-ribbon-height{
+    height: 48em;
+    width: 45em;
+}
+
+.margin-bottom{
+    margin-bottom: 3em;
+}
+
+.card-ribbon-center{
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    width: 90%;
+}
+/* ribbon group */
 
 @media (max-width: 1024px){
     .card-group-grid{
@@ -104,5 +129,15 @@
     
     .card-group-item-2{
         grid-column: 1;
+    }
+
+    .card-ribbon-center{
+        width: 35em;
+    }
+}
+
+@media (max-width: 576px){
+    .card-ribbon-center{
+        width: 90%;
     }
 }
