@@ -18,14 +18,14 @@
 /* Navbar*/
 .logoHeader {
     font-family: PlayFairDisplay;
-    grid-column: span 3;
+    grid-column: span 2;
     grid-row: 1;
 }
 
 .gridContainerHeader {
     background-color: #AFCA98;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(1, 120px);
 
     box-shadow: 0 .2em .2em #00000035;
@@ -35,13 +35,12 @@
     font-family: PlayFairDisplay;
     text-decoration: none;
     color: black;
+    height: 40px;
+    border-radius: 5px;
 }
 
 .Headerbtn:hover {
-    background-color: #d8d9d6;
-    height: 30px;
-    border-radius: 5px;
-
+    background-color: var(--btn-hover);
 }
 
 .dropdown-menu {
@@ -53,12 +52,12 @@
 }
 
 .active {
-    color: #57594B;
+    color: var(--current-page);
 
 }
 
 .active:hover {
-    background-color: #AFCA98;
+    background-color: var(--header-footer);
 }
 
 .dropdown:hover .dropdown-menu {
@@ -72,29 +71,43 @@
 }
 
 .HMbtn {
-
-    grid-column: 5 /span 1;
+    grid-column: 3;
     grid-row: 1;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    text-align: center;
 }
 
 .DDbtn {
-    grid-column: 6 /span 1;
+    grid-column: 3;
     grid-row: 1;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    text-align: center;
 }
 
 .SObtn {
-    grid-column: 7 /span 2;
+    grid-column: 3;
     grid-row: 1;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    text-align: center;
 }
 
 .ORbtn {
-    grid-column: 9 /span 1;
+    grid-column: 3;
     grid-row: 1;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    text-align: center;
 }
 
 .SIbtn {
-    grid-column: 12 /span 1;
+    grid-column: 3;
     grid-row: 1;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    text-align: center;
 }
 
 /* end of Navbar */
@@ -156,3 +169,50 @@ body {
 }
 
 /* end of footer */
+
+@media (max-width: 768px){
+    .gridContainerHeader {
+        display: block;
+    }
+
+    .dropdown-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, auto);
+    }
+
+    .HMbtn {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        grid-row: 1;
+        grid-column: 3;
+    }
+    
+    .DDbtn {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        grid-row: 2;
+        grid-column: 3;
+    }
+    
+    .SObtn {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        grid-row: 3;
+        grid-column: 3;
+    }
+    
+    .ORbtn {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        grid-row: 4;
+        grid-column: 3;
+    }
+    
+    .SIbtn {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        grid-row: 5;
+        grid-column: 3;
+    }
+}
