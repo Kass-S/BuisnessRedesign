@@ -1,14 +1,13 @@
 @import url(../style.css);
 .gridContainerOrder{
-
     margin: 0 auto;
     width: 60%;
-   
     margin-bottom: 6em;
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 1em;
 }
+
 .TitleMargin{
     font-family: PlayFairDisplay;
     text-align: center;
@@ -20,19 +19,22 @@
    
     box-shadow: 0 0.2em 0.2em #00000035;
     border-radius: 10px;
-    border:  2px solid #d9d9d9;
+    border: 2px solid #d9d9d9;
 }
+
 .inputInfo{
     grid-column: span 2;
-   
 }
+
 .inputCredit{
     grid-column: span 2;
 }
+
 .form-control{
     border: 0;
     height: auto;
 }
+
 ::placeholder{
     text-wrap: wrap;
     font-family: Ario;
@@ -53,53 +55,31 @@
 @media (max-width: 576px){
     .gridContainerOrder{
         width: 90%;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .inputInfo{
+        grid-column: 1;
+    }
+    
+    .inputCredit{
+        grid-column: 1;
     }
 }
 
 @media (max-width: 430px){
     .gridContainerOrder{
         width: 80%;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, auto);
+        grid-template-columns: auto;
+        grid-template-rows: auto;
     }
 
-    .responsive-grid-item-1{
+    .inputInfo{
         grid-column: 1;
-        grid-row: 1;
     }
-
-    .responsive-grid-item-2{
+    
+    .inputCredit{
         grid-column: 1;
-        grid-row: 2;
-    }
-
-    .responsive-grid-item-3{
-        grid-column: 1;
-        grid-row: 3;
-    }
-
-    .responsive-grid-item-4{
-        grid-column: 1;
-        grid-row: 4;
-    }
-
-    .responsive-grid-item-5{
-        grid-column: 1;
-        grid-row: 5;
-    }
-
-    .responsive-grid-item-6{
-        grid-column: 1;
-        grid-row: 6;
-    }
-
-    .responsive-grid-item-7{
-        grid-column: 1;
-        grid-row: 7;
-    }
-
-    .responsive-grid-item-8{
-        grid-column: 1;
-        grid-row: 8;
     }
 }
