@@ -75,10 +75,23 @@
 }
 /* bouquet card */
 
+
+@media (max-width: 1020px){
+    .card-center{
+        width: 80%;
+    }
+}
+
 @media (max-width: 584px){
     .hero-img-grid {
         margin-top: 6.5em;
         display: grid;
         place-items: center;
     }    
+}
+
+@media (max-width: 576px){
+    .card-center{
+        width: 90%;
+    }
 }
