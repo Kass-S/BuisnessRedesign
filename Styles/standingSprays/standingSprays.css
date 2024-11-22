@@ -26,6 +26,7 @@ p {
 }
 
 .hero-text {
+    font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
     grid-column: 1;
