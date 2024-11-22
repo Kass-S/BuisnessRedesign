@@ -81,10 +81,6 @@
     color: #57594B;
 }
 
-.active:hover {
-    background-color: var(--header-footer);
-}
-
 .dropdown:hover .dropdown-menu {
     display: block;
     box-shadow: 0 0.2em 0.2em #00000035;
