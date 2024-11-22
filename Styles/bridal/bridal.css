@@ -89,6 +89,10 @@
     grid-column: 3;
 }
 
+.width-card{
+    width: 25rem;
+}
+
 .card-group-center{
     margin: 0 auto;
     margin-top: 3em;
