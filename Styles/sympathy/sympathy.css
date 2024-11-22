@@ -142,3 +142,11 @@
         width: 48em;
     }
 }
+
+@media (max-width: 584px){
+    .hero-img-grid {
+        margin-top: 10em;
+        display: grid;
+        place-items: center;
+    }    
+}
