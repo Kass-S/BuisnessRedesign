@@ -23,7 +23,7 @@
 
 .logoHeader {
     text-align: center;
-    font-family: PlayFairDisplay;
+    font-family: 'PlayFairDisplay';
     font-size: 32px;
     margin-left: 2em;
 }
@@ -39,6 +39,7 @@
 }
 
 .hoverBg {
+   
     width: fit-content;
     padding: 0.2em 0.4em;
 }
@@ -87,7 +88,7 @@
 }
 
 .dropdown-item {
-    font-family: 'PlayFairDisplay';
+    font-family: 'Arimo';
 }
 /* end of Navbar */
 
