@@ -176,9 +176,22 @@ body {
     .navbar-toggler {
         margin-right: 3em;
     }
+
+    .gridContainerFooter {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .Socials {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .Contact {
+        margin-bottom: 2em;
+    }
 }
 
-@media (max-width: 571px){
+@media (max-width: 584px){
     .flex-row {
         display: flex;
         justify-content: start;
@@ -186,5 +199,18 @@ body {
 
     .navbar-toggler {
         margin-left: 3em;
+    }
+
+    .gridContainerFooter {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .Visit {
+        margin-bottom: 2em;
+    }
+
+    .Socials {
+        grid-column: 1;
+        grid-row: 3;
     }
 }
