@@ -91,6 +91,13 @@
 .dropdown-item {
     font-family: 'Arimo', Arial, Helvetica, sans-serif;
 }
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 55%;
+}
 /* end of Navbar */
 
 /* body */
@@ -157,6 +164,10 @@ body {
 }
 
 @media (max-width: 992px){
+    .avatar-div {
+        display: none;
+    }
+
     .sign-In {
         display: none;
     }
@@ -190,6 +201,10 @@ body {
 }
 
 @media (max-width: 584px){
+    .avatar-div {
+        display: none;
+    }
+
     .gridContainerFooter {
         grid-template-columns: repeat(1, auto);
     }
@@ -209,6 +224,10 @@ body {
 }
 
 @media (max-width: 416px){
+    .avatar-div {
+        display: none;
+    }
+
     .flex-row {
         display: flex;
         justify-content: start;
