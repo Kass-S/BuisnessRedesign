@@ -16,36 +16,57 @@
 }
 
 /* Navbar*/
+.flex-row {
+    display: flex;
+    justify-content: center;
+}
+
 .logoHeader {
+    text-align: center;
     font-family: PlayFairDisplay;
-    grid-column: span 3;
-    grid-row: 1;
+    font-size: 32px;
+    margin-left: 2em;
 }
 
 .gridContainerHeader {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    align-items: center;
     background-color: #AFCA98;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(1, 120px);
+    grid-template-columns: repeat(3, auto);
+    box-shadow: 0 0.2em 0.2em #00000035;
+}
 
-    box-shadow: 0 .2em .2em #00000035;
+.hoverBg {
+    width: fit-content;
+    padding: 0.2em 0.4em;
+}
+
+.sign-In {
+    margin-right: 2em;
 }
 
 .Headerbtn {
+    display: flex;
+    align-items: center;
     font-family: PlayFairDisplay;
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 
-.Headerbtn:hover {
+.hoverBg:hover {
     background-color: #d8d9d6;
-    height: 30px;
     border-radius: 5px;
-
+    background-color: #A9BD98;
 }
 
 .dropdown-menu {
     background-color: #AFCA98;
+    margin: 0 auto;
+    border: solid #D9D9D9 2px;
+    width: 100%;
 }
 
 .dropdown-item:hover {
@@ -54,7 +75,6 @@
 
 .active {
     color: #57594B;
-
 }
 
 .active:hover {
@@ -63,40 +83,12 @@
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0;
-    /* remove the gap so it doesn't close */
+    box-shadow: 0 0.2em 0.2em #00000035;
 }
 
 .dropdown-item {
     font-family: PlayFairDisplay;
 }
-
-.HMbtn {
-
-    grid-column: 5 /span 1;
-    grid-row: 1;
-}
-
-.DDbtn {
-    grid-column: 6 /span 1;
-    grid-row: 1;
-}
-
-.SObtn {
-    grid-column: 7 /span 2;
-    grid-row: 1;
-}
-
-.ORbtn {
-    grid-column: 9 /span 1;
-    grid-row: 1;
-}
-
-.SIbtn {
-    grid-column: 12 /span 1;
-    grid-row: 1;
-}
-
 /* end of Navbar */
 
 /* body */
@@ -107,12 +99,20 @@ body {
 /* end of body  */
 
 /* footer */
-.gridContainerFooter {
+.footerBg {
     background-color: #AFCA98;
+    box-shadow: 0 0.2em 0.2em 0.2em #00000035;
+}
+
+.gridContainerFooter {
+    text-align: center;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(1, 120px);
-    box-shadow: 0 .2em .2em #00000035;
+    grid-template-columns: repeat(3, auto);
+    margin: 0 auto;
+    margin-top: 6em;
+    width: 60%;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .FooterEmail {
@@ -122,37 +122,65 @@ body {
 
 .Contact {
     font-family: Ario;
-    grid-column: 4;
-
 }
 
 .Visit {
     font-family: Ario;
-    grid-column: 6 /span 2;
 }
 
 .Socials {
     font-family: Ario;
-    grid-column: 8 /span 2;
 }
 
 .MPlogo {
-
-    width: 20px;
+    width: 1em;
     aspect-ratio: 1/1;
 }
 
-
-
 .FooterIGlogo {
-    width: 32px;
+    width: 2em;
     aspect-ratio: 1/1;
     margin-right: 1em;
 }
 
 .FooterFBlogo {
-    width: 20px;
+    width: 1.5em;
+}
+/* end of footer */
 
+@media (min-width: 991px){
+    .sign-In-mobile {
+        display: none;
+    }
 }
 
-/* end of footer */
+@media (max-width: 992px){
+    .sign-In {
+        display: none;
+    }
+
+    .flex-row {
+        display: flex;
+        justify-content: end;
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        margin-right: 3em;
+    }
+}
+
+@media (max-width: 571px){
+    .flex-row {
+        display: flex;
+        justify-content: start;
+    }
+
+    .navbar-toggler {
+        margin-left: 3em;
+    }
+}
