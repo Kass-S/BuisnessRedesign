@@ -63,11 +63,11 @@
 .hoverBg:hover {
     background-color: #d8d9d6;
     border-radius: 5px;
-    background-color: #A9BD98;
+    background-color: var(--btn-hover);
 }
 
 .dropdown-menu {
-    background-color: #AFCA98;
+    background-color: var(--header-footer);
     margin: 0 auto;
     border: solid #D9D9D9 2px;
     width: 100%;
@@ -77,8 +77,8 @@
     background-color: var(--header-footer);
 }
 
-.active {
-    color: #57594B;
+.active-color {
+    color: var(--current-page);
 }
 
 .dropdown:hover .dropdown-menu {
@@ -87,7 +87,7 @@
 }
 
 .dropdown-item {
-    font-family: PlayFairDisplay;
+    font-family: 'PlayFairDisplay';
 }
 /* end of Navbar */
 
@@ -100,7 +100,7 @@ body {
 
 /* footer */
 .footerBg {
-    background-color: #AFCA98;
+    background-color: var(--header-footer);
     box-shadow: 0 0.2em 0.2em 0.2em #00000035;
 }
 
@@ -116,20 +116,20 @@ body {
 }
 
 .FooterEmail {
-    font-family: Ario;
+    font-family: 'Arimo';
     text-decoration: underline;
 }
 
 .Contact {
-    font-family: Ario;
+    font-family: 'Arimo';
 }
 
 .Visit {
-    font-family: Ario;
+    font-family: 'Arimo';
 }
 
 .Socials {
-    font-family: Ario;
+    font-family: 'Arimo';
 }
 
 .MPlogo {
