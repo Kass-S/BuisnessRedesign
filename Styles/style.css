@@ -24,7 +24,9 @@
     background-color: #AFCA98;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(1, auto);
+    grid-template-rows: repeat(1, 120px);
+    
+    box-shadow: 0 .2em .2em #00000035;
     }
 .HMbtn{
     grid-column: 5 /span 1;
@@ -63,7 +65,8 @@ body{
 background-color: #AFCA98;
 display: grid;
 grid-template-columns: repeat(12, 1fr);
-grid-template-rows: repeat(1, 1fr);
+grid-template-rows: repeat(1, 120px);
+box-shadow: 0 .2em .2em #00000035;
 }
 .FooterEmail{
     text-decoration: underline;
