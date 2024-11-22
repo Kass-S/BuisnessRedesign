@@ -10,6 +10,12 @@
     box-shadow: 0 .2em .2em #00000035;
 }
 
+.Boldlist{
+
+    font-weight: bold;
+}
+
+
 .margin-top{
     margin-top: 3em;
 }
