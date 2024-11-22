@@ -102,6 +102,11 @@
 /* sympathy group */
 
 /* Ribbon Group */
+.ribbon-Flex {
+    display: flex;
+    justify-content: center;
+}
+
 .margin-bottom{
     margin-bottom: 3em;
 }
