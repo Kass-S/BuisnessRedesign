@@ -1,101 +1,158 @@
-:root{
+:root {
     --bg-color: #F2F3EF;
     --header-footer: #AFCA98;
     --btn-hover: #A9BD98;
     --current-page: #57594B;
 }
 
-@font-face{
+@font-face {
     font-family: 'PlayFairDisplay';
     src: url(/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Ario';
     src: url(/assets/fonts/Arimo-VariableFont_wght.ttf);
 }
+
 /* Navbar*/
-.logoHeader{
+.logoHeader {
+    font-family: PlayFairDisplay;
     grid-column: span 3;
     grid-row: 1;
 }
 
-.gridContainerHeader{
+.gridContainerHeader {
     background-color: #AFCA98;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1, 120px);
-    
+
     box-shadow: 0 .2em .2em #00000035;
-    }
-.HMbtn{
+}
+
+.Headerbtn {
+    font-family: PlayFairDisplay;
+    text-decoration: none;
+    color: black;
+}
+
+.Headerbtn:hover {
+    background-color: #d8d9d6;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.dropdown-menu {
+    background-color: #AFCA98;
+}
+
+.dropdown-item:hover {
+    background-color: #AFCA98;
+}
+
+.active {
+    color: #57594B;
+
+}
+
+.active:hover {
+    background-color: #AFCA98;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    /* remove the gap so it doesn't close */
+}
+
+.dropdown-item {
+    font-family: PlayFairDisplay;
+}
+
+.HMbtn {
+
     grid-column: 5 /span 1;
     grid-row: 1;
 }
 
-.DDbtn{
+.DDbtn {
     grid-column: 6 /span 1;
     grid-row: 1;
 }
 
-.SObtn{
+.SObtn {
     grid-column: 7 /span 2;
     grid-row: 1;
 }
 
-.ORbtn{
+.ORbtn {
     grid-column: 9 /span 1;
     grid-row: 1;
 }
 
-.SIbtn{
+.SIbtn {
     grid-column: 12 /span 1;
     grid-row: 1;
 }
+
 /* end of Navbar */
 
 /* body */
-body{
+body {
     background-color: var(--bg-color);
 }
+
 /* end of body  */
 
 /* footer */
-.gridContainerFooter{
-background-color: #AFCA98;
-display: grid;
-grid-template-columns: repeat(12, 1fr);
-grid-template-rows: repeat(1, 120px);
-box-shadow: 0 .2em .2em #00000035;
+.gridContainerFooter {
+    background-color: #AFCA98;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 120px);
+    box-shadow: 0 .2em .2em #00000035;
 }
-.FooterEmail{
+
+.FooterEmail {
+    font-family: Ario;
     text-decoration: underline;
 }
 
-.Contact{
+.Contact {
+    font-family: Ario;
     grid-column: 4;
 
 }
-.Visit{
+
+.Visit {
+    font-family: Ario;
     grid-column: 6 /span 2;
 }
-.Socials{
+
+.Socials {
+    font-family: Ario;
     grid-column: 8 /span 2;
 }
-.MPlogo{
+
+.MPlogo {
+
     width: 20px;
     aspect-ratio: 1/1;
 }
 
 
 
-.FooterIGlogo{
+.FooterIGlogo {
     width: 32px;
     aspect-ratio: 1/1;
     margin-right: 1em;
 }
-.FooterFBlogo{
+
+.FooterFBlogo {
     width: 20px;
-    
+
 }
+
 /* end of footer */
