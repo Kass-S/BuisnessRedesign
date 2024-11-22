@@ -23,7 +23,7 @@
 
 .logoHeader {
     text-align: center;
-    font-family: PlayFairDisplay;
+    font-family: 'PlayFairDisplay';
     font-size: 32px;
     margin-left: 2em;
 }
@@ -116,20 +116,20 @@ body {
 }
 
 .FooterEmail {
-    font-family: Ario;
+    font-family: 'Arimo';
     text-decoration: underline;
 }
 
 .Contact {
-    font-family: Arimo;
+    font-family: 'Arimo';
 }
 
 .Visit {
-    font-family: Arimo;
+    font-family: 'Arimo';
 }
 
 .Socials {
-    font-family: Arimo;
+    font-family: 'Arimo';
 }
 
 .MPlogo {
