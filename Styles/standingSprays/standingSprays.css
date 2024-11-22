@@ -109,8 +109,12 @@ p {
 @media (max-width: 584px){
     .hero-grid {
         margin-top: 6.5em;
-        display: grid;
-        place-items: center;
     }    
+}
+
+@media (max-width: 416px){
+    .hero-grid {
+        margin-top: 9em;
+    }
 }
 /* responsiveness-end */

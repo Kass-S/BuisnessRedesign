@@ -146,7 +146,11 @@
 @media (max-width: 584px){
     .hero-img-grid {
         margin-top: 6.5em;
-        display: grid;
-        place-items: center;
     }    
+}
+
+@media (max-width: 416px){
+    .hero-img-grid {
+        margin-top: 9em;
+    }
 }
