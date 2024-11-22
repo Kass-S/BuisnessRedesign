@@ -10,12 +10,6 @@
     box-shadow: 0 .2em .2em #00000035;
 }
 
-.Boldlist{
-
-    font-weight: bold;
-}
-
-
 .margin-top{
     margin-top: 3em;
 }
@@ -102,7 +96,8 @@
 /* sympathy group */
 
 /* Ribbon Group */
-.ribbon-Flex {
+.Boldlist-flex{
+    font-weight: bold;
     text-align: center;
     margin-bottom: 2em;
 }
