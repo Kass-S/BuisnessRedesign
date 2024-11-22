@@ -193,7 +193,7 @@ body {
     }
 }
 
-@media (max-width: 768px){
+@media(max-width: 992px){
     .margin-spacing{
         margin-left: 0px;
     }
@@ -204,7 +204,7 @@ body {
 
     .dropdown-grid{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr auto;
         grid-template-rows: repeat(5, auto);
     }
 
