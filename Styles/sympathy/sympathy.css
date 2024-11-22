@@ -10,6 +10,12 @@
     box-shadow: 0 .2em .2em #00000035;
 }
 
+.Boldlist{
+
+    font-weight: bold;
+}
+
+
 .margin-top{
     margin-top: 3em;
 }
@@ -73,8 +79,10 @@
 
 .body-group-img{
     margin: 1em auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
     width: 90%;
-    height: 70%;
+    height: 90%;
 }
 
 .sympathy-btn{
