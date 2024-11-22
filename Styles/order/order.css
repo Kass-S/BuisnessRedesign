@@ -1,1 +1,40 @@
 @import url(../style.css);
+.gridContainerOrder{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+}
+.inputName{
+    padding-left: 30px;
+    grid-column: 3 /span 3;
+    grid-row: 8;
+}
+.inputAddress{
+    padding-left: 30px;
+grid-column: 6 /span 3;
+grid-row: 8;
+}
+.inputNumber{
+    grid-column: 3;
+    grid-row: 4;
+}
+.inputSubject{
+    grid-column: 4;
+    grid-row: 4;
+}
+.inputItems{
+    grid-column: 5;
+    grid-row: 4;
+}
+.inputCard{
+    grid-column: 6;
+    grid-row: 4;
+}
+.inputInfo{
+    grid-column: 7;
+    grid-row: 4;
+}
+.inputCredit{
+    grid-column: 8;
+    grid-row: 4;
+}
