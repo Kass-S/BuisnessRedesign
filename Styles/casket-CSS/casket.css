@@ -24,11 +24,13 @@ p {
 
 /* hero-start */
 .hero-grid {
+    margin-top: 7.5em;
     display: grid;
     place-items: center;
 }
 
 .hero-text {
+    font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
     grid-column: 1;

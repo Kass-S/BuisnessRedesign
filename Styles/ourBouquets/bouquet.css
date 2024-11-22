@@ -15,6 +15,7 @@
 
 /* Hero Image */
 .hero-img-grid{
+    margin-top: 7.5em;
     display: grid;
     place-items: center;
 }
