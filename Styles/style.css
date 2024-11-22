@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Arimo';
+    font-family: 'Ario';
     src: url(/assets/fonts/Arimo-VariableFont_wght.ttf);
 }
 
@@ -55,7 +55,7 @@
 .Headerbtn {
     display: flex;
     align-items: center;
-    font-family: 'PlayFairDisplay', Arial, Helvetica, sans-serif;
+    font-family: 'Arimo', Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -79,7 +79,7 @@
 }
 
 .active-color {
-    color: #57594B!important;
+    color: var(--current-page);
 }
 
 .dropdown:hover .dropdown-menu {
@@ -101,7 +101,7 @@ body {
 
 /* footer */
 .footerBg {
-    background-color: #AFCA98;
+    background-color: var(--header-footer);
     box-shadow: 0 0.2em 0.2em 0.2em #00000035;
 }
 
@@ -117,20 +117,20 @@ body {
 }
 
 .FooterEmail {
-    font-family: Ario;
+    font-family: 'Arimo';
     text-decoration: underline;
 }
 
 .Contact {
-    font-family: Arimo;
+    font-family: 'Arimo';
 }
 
 .Visit {
-    font-family: Arimo;
+    font-family: 'Arimo';
 }
 
 .Socials {
-    font-family: Arimo;
+    font-family: 'Arimo';
 }
 
 .MPlogo {
