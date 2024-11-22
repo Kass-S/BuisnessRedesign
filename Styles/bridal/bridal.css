@@ -117,6 +117,10 @@
     .card-group-item-3{
         grid-column: 1;
     }
+
+    .card-center{
+        width: 80%;
+    }
 }
 
 @media (max-width: 768px){
@@ -127,5 +131,11 @@
     
     .card-group-item-2{
         grid-column: 1;
+    }
+}
+
+@media (max-width: 576px){
+    .card-center{
+        width: 90%;
     }
 }

@@ -74,3 +74,15 @@
     margin-bottom: 3em;
 }
 /* bouquet card */
+
+@media (max-width: 1020px){
+    .card-center{
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px){
+    .card-center{
+        width: 90%;
+    }
+}
