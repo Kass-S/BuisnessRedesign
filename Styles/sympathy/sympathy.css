@@ -73,8 +73,10 @@
 
 .body-group-img{
     margin: 1em auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
     width: 90%;
-    height: 70%;
+    height: 90%;
 }
 
 .sympathy-btn{
