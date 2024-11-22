@@ -60,6 +60,10 @@
     grid-column: 3;
 }
 
+.width-card{
+    width: 25rem;
+}
+
 .card-height{
     height: 35em;
 }
@@ -94,11 +98,6 @@
 /* sympathy group */
 
 /* Ribbon Group */
-.card-ribbon-height{
-    height: 48em;
-    width: 45em;
-}
-
 .margin-bottom{
     margin-bottom: 3em;
 }
@@ -107,7 +106,7 @@
     margin: 0 auto;
     margin-top: 3em;
     margin-bottom: 2em;
-    width: 48em;
+    width: 60%;
 }
 /* ribbon group */
 
@@ -133,13 +132,7 @@
     }
 
     .card-ribbon-center{
-        width: 35em;
-    }
-}
-
-@media (max-width: 576px){
-    .card-ribbon-center{
-        width: 48em;
+        width: 80%;
     }
 }
 
@@ -149,7 +142,25 @@
     }    
 }
 
+@media (max-width: 576px){
+    .card-ribbon-center{
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px){
+    .card-height{
+        height: 30em;
+    }
+
+    .card-group-center{
+        width: 95%;
+    }
+}
+
 @media (max-width: 416px){
+    
+
     .hero-img-grid {
         margin-top: 9em;
     }
