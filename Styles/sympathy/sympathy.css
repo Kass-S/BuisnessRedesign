@@ -64,10 +64,6 @@
     width: 25rem;
 }
 
-.card-height{
-    height: 35em;
-}
-
 .card-group-center{
     margin: 0 auto;
     margin-top: 3em;
@@ -121,7 +117,7 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 730px){
     .card-group-grid{
         display: grid;
         grid-template-columns: 1fr;
@@ -133,7 +129,7 @@
 
     .card-ribbon-center{
         width: 80%;
-    }
+    }  
 }
 
 @media (max-width: 584px){
@@ -149,10 +145,7 @@
 }
 
 @media (max-width: 450px){
-    .card-height{
-        height: 30em;
-    }
-
+    
     .card-group-center{
         width: 95%;
     }
