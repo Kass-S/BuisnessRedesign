@@ -134,6 +134,14 @@
     }
 }
 
+@media (max-width: 584px){
+    .hero-img-grid {
+        margin-top: 10em;
+        display: grid;
+        place-items: center;
+    }    
+}
+
 @media (max-width: 576px){
     .card-center{
         width: 90%;

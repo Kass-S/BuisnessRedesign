@@ -150,4 +150,12 @@ p {
         grid-column: 2;
     }
 }
+
+@media (max-width: 584px){
+    .hero-grid {
+        margin-top: 10em;
+        display: grid;
+        place-items: center;
+    }    
+}
 /* responsiveness-end */
