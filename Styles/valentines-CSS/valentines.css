@@ -82,6 +82,12 @@ p {
 /* cards-end */
 
 /* responsiveness-start */
+@media (max-width: 768px){
+    .card-center{
+        width: 80%;
+    }
+}
+
 @media (max-width: 767px){
     h1 {
         font-size: 24px;
@@ -107,7 +113,13 @@ p {
 @media (max-width: 584px){
     .hero-grid {
         margin-top: 6.5em;
-    }    
+    }  
+}
+
+@media (max-width: 450px){
+    .card-center{
+        width: 90%;
+    }
 }
 
 @media (max-width: 416px){
