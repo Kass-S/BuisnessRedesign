@@ -45,11 +45,14 @@
 }
 
 .Headerbtn:hover {
-    background-color: var(--btn-hover);
+    background-color: #d8d9d6;
+    height: 30px;
+    border-radius: 5px;
+
 }
 
 .dropdown-menu {
-    background-color: var(--header-footer);
+    background-color: #AFCA98;
 }
 
 .dropdown-item:hover {
