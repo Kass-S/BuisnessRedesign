@@ -47,6 +47,10 @@
     margin-right: 2em;
 }
 
+.margin-spacing{
+    margin-left: 300px;
+}
+
 .Headerbtn {
     display: flex;
     align-items: center;
@@ -70,7 +74,7 @@
 }
 
 .dropdown-item:hover {
-    background-color: #AFCA98;
+    background-color: var(--header-footer);
 }
 
 .active {
@@ -78,7 +82,7 @@
 }
 
 .active:hover {
-    background-color: #AFCA98;
+    background-color: var(--header-footer);
 }
 
 .dropdown:hover .dropdown-menu {

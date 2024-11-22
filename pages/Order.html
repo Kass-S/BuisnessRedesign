@@ -13,81 +13,89 @@
     <link rel="stylesheet" href="../Styles/order/order.css" />
   </head>
   <body>
-    <header>
-      <div class="gridContainerHeader  fixed-top">
+    <header class="navbar navbar-expand-lg">
+      <div class="gridContainerHeader container-fluid fixed-top">
         
           <H3 class="logoHeader mt-5 mb-4"> FIORE FLORAL & GIFTS</H3>
-          <div class=" HMbtn d-flex justify-content-center mt-5">
-            <a  class="Headerbtn" href="../index.html"> Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 dropdown-grid ">
+
+              <li class="HMbtn nav-item margin-spacing">
+                <a class="Headerbtn nav-link" href="../index.html"> Home</a>
+              </li>
+              
+              <li class="DDbtn nav-item mx-2">
+                <a class="Headerbtn nav-link" href="../pages/DailyDesign.html"> Daily designs </a>
+              </li>
+
+              <li class="nav-item dropdown SObtn">
+                <a class="nav-link Headerbtn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Special Occasions
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../pages/ValentinesDay.html">Valentines Day</a></li>
+                    <li><a class="dropdown-item" href="../pages/BridalBouquets.html">Bridal Bouquets</a></li>
+                    <li><a class="dropdown-item" href="../pages/TableCenterPieces.html">Table Centerpieces</a></li>
+                    <li><a class="dropdown-item" href="../pages/Sympathy.html">Sympathy</a></li>
+                </ul>
+              </li>
+    
+              <li class="ORbtn nav-link ms-2">
+                <a class="Headerbtn active " href="./pages/Order.html"> Order </a>
+              </li>
+    
+              <li class="SIbtn nav-item margin-spacing">
+                <a  class="Headerbtn nav-link" href="#"> Sign In</a>
+              </li>   
           </div>
-
-          <div class="DDbtn d-flex justify-content-center mt-5">
-            <a class="Headerbtn" href="../pages/DailyDesign.html"> Daily designs </a>
-          </div>
-
-          <div class="SObtn d-flex justify-content-center mt-5">
-            <div class="dropdown Headerbtn">
-              <a class="Headerbtn" data-bs-toggle="dropdown">
-               Special Occasions
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../pages/ValentinesDay.html">Valentines Day</a></li>
-                <li><a class="dropdown-item" href="../pages/BridalBouquets.html">Bridal Bouquets</a></li>
-                <li><a class="dropdown-item" href="../pages/TableCenterPieces.html">Table Centerpieces</a></li>
-                <li><a class="dropdown-item" href="../pages/Sympathy.html">Sympathy</a></li>
-                
-              </ul>
-            </div>
-          </div>
-
-          <div class="ORbtn mt-5">
-            <a class="Headerbtn active" href="../pages/Order.html"> Order </a>
-          </div>
-
-          <div class="SIbtn d-flex justify-content-center mt-5">
-            <a  class="Headerbtn" href=""> Sign In</a>
-          </div>
-
-
-        
       </div>
-      
     </header>
 
-    <main class="gridContainerOrder">
-      
-        <div class="inputName">
-          <input class="form-control" type="text" placeholder="Your Name" aria-label="default input example">
-        </div>
+    <main>
+      <section class="TitleMargin">
+        <h1>FIORE FLORAL & GIFTS </h1>
+        <p>Exquisitely educated designs!</p>
 
-        <div class="inputAddress">
-          <input class="form-control" type="text" placeholder="Enter your address" aria-label="default input example">
-        </div>
-
-        <div class="inputNumber">
-          <input class="form-control" type="text" placeholder="Phone Number" aria-label="default input example">
-        </div>
-
-        <div class="inputSubject">
-          <input class="form-control" type="text" placeholder="Subject/Date required:" aria-label="default input example">
-        </div>
-
-        <div class="inputItems">
-          <input class="form-control" type="text" placeholder="Selected Item(s) from website or designers choice and price range..." aria-label="default input example">
-        </div>
+      </section>
+      <section class="gridContainerOrder">
 
         <div class="inputCard">
-          <input class="form-control" type="text" placeholder="Card Message..." aria-label="default input example">
+          <input class="form-control" type="text" placeholder="Your Name" aria-label="default input example">
         </div>
-
-        <div class="inputInfo">
-          <input class="form-control" type="text" placeholder="Additional Info/inquiry..." aria-label="default input example">
+        
+        <div class="inputCard">
+          <input class="form-control" type="text" placeholder="Enter your address" aria-label="default input example">
         </div>
-
-        <div class="inputCredit">
+        
+        <div class="inputCard">
+          <input class="form-control" type="text" placeholder="Phone Number" aria-label="default input example">
+        </div>
+        
+        <div class="inputCard">
+          <input class="form-control" type="text" placeholder="Subject/Date required:" aria-label="default input example">
+        </div>
+        
+        <div class="inputCard">
+          <input class="form-control CardThick" type="text" placeholder="Selected Item(s) from website or designers choice and price range..." aria-label="default input example">
+        </div>
+        
+        <div class="inputCard">
+          <input class="form-control CardThick" type="text" placeholder="Card Message..." aria-label="default input example">
+        </div>
+        
+        <div class="inputInfo inputCard">
+          <input class="form-control CardThick" type="text" placeholder="Additional Info/inquiry..." aria-label="default input example">
+        </div>
+        
+        <div class="inputCredit inputCard">
+          
           <input class="form-control" type="text" placeholder="Credit Card /Exp Date:" aria-label="default input example">
         </div>
-     
+        
+      </section>
     </main>
     
     <footer>
