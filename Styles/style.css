@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Ario';
+    font-family: 'Arimo';
     src: url(/assets/fonts/Arimo-VariableFont_wght.ttf);
 }
 
@@ -77,8 +77,8 @@
     background-color: var(--header-footer);
 }
 
-.active {
-    color: var(--current-page);
+.active-color {
+    color: #57594B!important;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -121,15 +121,15 @@ body {
 }
 
 .Contact {
-    font-family: Ario;
+    font-family: Arimo;
 }
 
 .Visit {
-    font-family: Ario;
+    font-family: Arimo;
 }
 
 .Socials {
-    font-family: Ario;
+    font-family: Arimo;
 }
 
 .MPlogo {
