@@ -92,6 +92,12 @@
     }
 }
 
+@media (max-width: 380px){
+    .hero-img-grid {
+        margin-top: 8em;
+    } 
+}
+
 @media (max-width: 576px){
     .card-center{
         width: 90%;
